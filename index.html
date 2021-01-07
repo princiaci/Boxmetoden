@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>oppgave</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        main {
+            
+            font-family: 'Oswald', sans-serif;
+
+            /* slik legger man til kommentar i css */
+
+            display: flex;
+            /* flex brukes til å plassere innhold */
+
+            flex-wrap: wrap;
+            /* flex-wrap brukes til å pakke innholdet 
+            der hvor det er plass dyttes ting opp 
+            og der hvor det ikke er plass dyttes ting ned*/
+
+            justify-content: center;
+            /* brukes for å sentrere innhold */
+
+            align-items: center;
+
+            margin: 40px;
+            padding: 20px;
+
+
+            background-color: rgb(146, 54, 0);
+            min-height: 1000px;
+        }
+
+        div {
+            max-width: 300px;
+
+            margin: 40px;
+            padding: 20px;
+
+            border: rgb(247, 169, 102) solid 10px;
+
+            background-color: peachpuff;
+        }
+
+        .artur {
+            background-color: burlywood;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div class="moon">
+            <h2>Hvordan kommentere i HTML</h2>
+            <p>
+                HTML-kommentarer vises ikke i nettleseren, men de kan hjelpe til med å dokumentere HTML-kildekoden.
+                <p>Eksempel: <i> < ! - Skriv kommentarene dine her - ></i></p>
+            </p>
+        </div>
+
+        <div class="star">
+            <h2>Hvordan kommentere i CSS</h2>
+            <p>
+                Kommentarer brukes til å forklare koden, og kan hjelpe når du redigerer kildekoden på et senere tidspunkt.
+                <p>Eksempel: <i> / * Dette er en kommentar * / </i></p>
+            </p>
+        </div>
+
+        <div>
+            <h2>Hvordan skriver man lenker?</h2>
+            <p>
+                For å legge til lenker bruker man koden <a href=“”></a>, og skriver inn http:// + link mellom anførselstegnene, f.eks. <a href=“https://youtube.com”></a>. I mellom start “a href=“”> og slutt </a>, kan man legge til tekst som linken er knyttet til.
+            </p>
+        </div>
+
+        <div>
+            <h2>Hvordan legger man til bilder?</h2>
+            <p>
+                For å legge til bilder bruker man koden 
+                <p><b><i>< img src=“” alt=“” ></i></b></p> 
+                Deretter skriver man ./filnavn i mellom “” “Alt” står for alternative text, som brukes til å forklare hva bildet er dersom det skjer noe feil.
+            </p>
+        </div>
+
+        <div>
+            <h2>Hvordan legger man til bakgrunnsfarge</h2>
+            <p>
+                Man endrer bakgrunnsfarge i CSS ved å spesifisere objektet med “objekt” <i>{background-color: yellow;}</i> 
+            </p>
+        </div>
+
+        <div>
+            <h2>Hva brukes main til i HTML</h2>
+
+            <p>
+                Main brukes til å legge elementer som er unike for sidene, områder som ikke er unike (som sidebars) bør holdes utenfor, men innenfor “body” 
+            </p>
+        </div>
+
+        <div>
+            <h2>Hvordan skriver man farge med HEX verdi</h2>
+
+            <p>En heksadesimal farge er spesifisert med: #RRGGBB. RR (rød), GG (grønn) og BB (blå) er heksadesimale heltall mellom 00 og FF som spesifiserer intensiteten til fargen.
+            </p>
+            
+        </div>
+
+        <div>
+            <h2>
+                Hvordan skriver man farge med RGB verdi</h2>
+
+            <p>
+                En RGB-fargeverdi er spesifisert med: rgb (rød, grønn, blå). Hver parameter (rød, grønn og blå) definerer intensiteten til fargen som et helt tall mellom 0 og 255.
+            </p>
+            
+        </div>
+
+        <div>
+            <h2> Hva brukes flexbox i CSS til? </h2>
+            <p>
+                Flexible Box Layout Module, gjør det enklere å designe fleksibel responsiv layoutstruktur uten å bruke flyt eller posisjonering.
+            </p>
+            
+        </div>
+
+    </main>
+
+</body>
+
+</html>
